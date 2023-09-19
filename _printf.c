@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  * _printf - Custom printf function
  * @format: Format string passed as arg
@@ -47,9 +45,7 @@ int _printf(const char *format, ...)
 	}
 
 	printToBuffer(buffer, &buffer_index);
-
 	va_end(args);
-
 	return (prnt_chars);
 }
 
